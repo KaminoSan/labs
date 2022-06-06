@@ -1,0 +1,145 @@
+body {
+    margin:0 9px 0 9px;
+    padding: 0;
+    background:#FFF;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.left_color {
+    background: greenyellow;
+    width: 100%;
+}
+
+.left_column {
+    margin-left:9em;
+    padding-left:9px;
+    background:#FFF;
+}
+
+.right_color {
+    background: #c6fdce;
+    position: relative;
+    width: inherit; 
+}
+
+.main_column {
+    margin-right: 9em;
+    padding-right: 9px;
+    background: rgb(223, 217, 217);
+    height: 100vh;
+    border-right: 1px solid greenyellow;
+}
+
+.menu {
+    background: greenyellow;
+    position: relative;
+}
+
+.banner {
+    background: #c6fdce;
+    clear: right;
+}
+
+.tipDay {
+    float: right;
+    width: 37%;
+    background: #c6fdce;
+    height: 2em;
+    position: relative;
+}
+
+.lftBar {
+    position: absolute;
+    width: 9em;
+    left: 9px;
+}
+
+.rgtBar {
+    position: absolute;
+    width: 9em;
+    right: 0;
+}
+
+.main_column h1 {
+    margin:0;
+    padding-left: 0.3em;
+    font: 1.25em Verdana,Helvetica,Arial;
+    color:#609;
+    background:greenyellow;
+}
+
+.main_column dt { 
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 0.8em
+}
+
+.rgtBar h3 {  
+    margin: 0;
+    padding: 3px;
+    background:greenyellow;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+.menu form {
+    float: right;
+    width: 10.5em;
+    text-align: right;
+    margin: 0;
+    line-height: 0.7em;
+    height: 100%;
+}    
+
+.menu input {
+    font-size: 0.8em;
+    position: absolute;
+    right: 5%;
+    width: 8%;
+    border: 1px solid rgb(95, 95, 95);
+    background-color: rgb(223, 223, 223);
+    bottom: 69%;
+}
+
+.menu button {
+    right: 0;
+    position: absolute;
+    width: 5%;
+    background-color: rgb(193, 193, 193);
+    bottom: 67%;
+}
+
+.menu b { 
+    padding-left: 5px;
+    display: block;
+    text-align: left;
+    font: bold 0.8em/1.7em Arial,Geneva,sans-serif;
+}
+
+.banner a{
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: block;
+    text-align: right;
+    position: relative;
+    right: 2%;
+}
+
+.banner p {
+    text-align: center;
+}
+
+#tipTit {
+    float:right;
+    width:7em;
+    text-align:right;
+    position:relative;
+    font: 0.8em/1.8em Arial,Geneva,sans-serif;
+    right: 1%;
+    top: 1%;
+}
